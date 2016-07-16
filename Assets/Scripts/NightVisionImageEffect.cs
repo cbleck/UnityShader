@@ -40,7 +40,7 @@ public class NightVisionImageEffect : MonoBehaviour
 			material.SetColor ("_NightVisionColor", nightVisionColor);
 			material.SetFloat ("_RandomValue", randomValue);
 			material.SetFloat ("_distortion", distorsion);
-			material.SetFloat ("_Scale", scale);
+			material.SetFloat ("_scale", scale);
 			if (vignetteTexture)
 				material.SetTexture ("_VignetteTex",vignetteTexture);
 			if (scanLineTexture) 
